@@ -1,0 +1,141 @@
+/*Formatação geral do site*/
+/*tipografia importada e background linear*/
+html{
+background: linear-gradient(90deg, rgba(143,149,156,0.9471989479385504) 0%, rgba(11,11,11,1) 100%); 
+font-family: Lato, sans-serif;
+}
+
+@media (max-width: 1170px){
+	.side{
+		display: none;
+	}
+}
+
+/*Formatação do lado esquerdo - side, menu, link e topic*/
+.side{
+	height: 100%;
+	width: 300px;
+}
+
+.menu{
+	background-color: #696969;
+	list-style: none;
+	color: white;
+	width: 20%;
+	position: absolute;
+	padding: 20px;
+	font-size: 10pt;
+	opacity: 0.8;
+}
+.menu .logo{
+	width: 100px;
+}
+
+.menu li{
+	color: white;
+	opacity: 1;
+}
+
+.link{
+	border-bottom: 1px solid black;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+
+.topic{
+	margin-top: 15px;
+}
+
+i {
+	width: 5px;
+	margin-right: 12px;
+}
+
+/*Formatação do center*/
+.center{
+	width: 380x;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.center p{
+	text-align: center;
+	color: rgb(136, 136, 136);
+}
+
+span{
+	color: rgb(37, 162, 90);
+}
+
+/*Estilização do Login*/
+.login .logo{
+	width: 140px;
+	margin-bottom: 30px;
+}
+
+.login{
+	width: 380px;
+	background-color: white;
+	padding: 40px;
+	border-radius: 9px;
+}
+
+.login *{
+	display: block;
+	color: gray;
+	border-color: gray;
+}
+
+.login h1{
+	font-size: 14pt;
+	font-weight: lighter;
+	margin-left: 2px;
+	color: rgb(180, 180, 180);
+}
+
+.login label {
+	margin-top: 15px;
+	margin-bottom: 8px;
+	color: rgb(136, 136, 136);
+}
+
+.login input {
+	width: 100%;
+	height: 35px;
+	border: 1px solid gray;
+	border-radius: 4px;
+	padding: 5px 8px 0px;
+	font-size: 12pt;
+}
+
+
+.login button{
+	width: 100%;
+	height: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	color: white;
+	background-color: rgb(37, 162, 90);
+	border-radius: 15px;
+	font-size: 14pt;
+	padding: 5px;
+}
+
+.login a{
+	margin-top: 20px;
+	text-align: right;
+	color: rgb(37, 162, 90);
+}
+
+.login hr{
+	border-top: rgb(180, 180, 180);
+}
+
+
+.login i{
+	color: rgb(204, 204, 204);
+}
+

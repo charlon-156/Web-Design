@@ -1,0 +1,60 @@
+#out {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 800px;
+	transform: translate(-50%, -50%);
+	margin-top: 50px;
+}
+#left {
+	width: 50%;
+	display: inline-block;
+}
+#right {
+	width: 50%;
+	display: inline-block;
+}
+#down {
+	width: 100%;
+}
+#login {
+	padding: 25px;
+	border: 1px solid gray;
+	margin-bottom: 6px;
+	margin-top:  6px; 
+}
+#forget {
+	padding: 25px;
+	border: 1px solid gray;
+	margin-bottom: 6px;
+	margin-top:  6px;
+}
+#app {
+	padding: 25px;
+	border: 1px solid gray;
+	margin-bottom: 6px;
+	margin-top:  6px;
+}
+input {
+	width: 70%;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-color: silver;
+	border-width: thin;
+}
+button {
+	width: 72%;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #b2dffc;
+	color: white;
+	border-color: #b2dffc;
+	border-width: thin;
+}
+a{
+	color:blue;
+ 	text-decoration: none;
+     
+}

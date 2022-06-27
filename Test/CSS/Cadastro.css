@@ -1,0 +1,39 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 175px;
+    font-family: Arial;
+    font-size: 10pt;
+    border-bottom: 1px solid #ccc;
+}
+
+ul li {
+    position: relative;
+}
+
+
+li ul{
+    position: absolute;
+    left: 174px;
+    top: 0;
+    display: none;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #50AF54;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: 0px;
+}
+
+li:hover ul{
+    display: block;
+}
+
+a:hover{
+    background-color: navy;
+}

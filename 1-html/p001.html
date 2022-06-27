@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "author" content="Charlon F. Monteiro">
+    <meta name = "descrition" content="Desafio de Java Script">
+    <title>Formatando Data</title>
+</head>
+
+<body>
+    <h1/> Ola, Daniel <h1>
+    <p>Charlon Fernandes</p>
+
+    <script>
+
+        var data = prompt("Informe a Data no Formato dd/MM/aaaa");
+        var divisoria = data.split("/");
+      
+            function mesDigitado(mes) {
+                switch (mes) {
+                    case "01": return (" de Janeiro de "); break;
+                    case "02": return (" de Fevereiro de "); break;  
+                    case "03": return (" de Março de "); break;
+                    case "04": return (" de Abril de "); break;
+                    case "05": return (" de Maio de "); break;
+                    case "6": return (" de Junho de "); break;
+                    case "07": return (" de Julho de "); break;
+                    case "08":  return (" de Agosto de "); break;
+                    case "09": return (" de Setembro de "); break;
+                    case "10": return (" de Outubro de "); break;
+                    case "11": return (" de Novembro de "); break;
+                    case "12": return (" de Dezembro de "); break;             
+                    default: " ERRO " ;break;             
+                }
+            }
+            //já tinha feito algo parecido em Java, ai foi facíl
+        alert(divisoria[0]  + mesDigitado(divisoria[1]) + divisoria[2]);
+      
+        </script>
+    </body>
+</html>

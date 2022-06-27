@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login do twitter</title>
+    <link rel="stylesheet" href="../css/LoginT.css">
+    <!--tag link para referenciamento do CSS no head-->
+</head>
+
+<body>
+  <header class="container"> <!--Cabeçalho para indexação da logo-->
+    <div class="logo">
+      <img src="../img/icon.png" alt="Logo do Twitter">
+    </div>
+  </header>
+
+  <main class="container"> 
+    <!--Por questão de sêmantica utilizei o main, mas uma outra alternativa é section-->
+    <h1>Entrar no Twitter</h1>
+
+    <div class="container">
+      <form>
+        <div class="inputs"> <!--Div para informa o email-->
+          <label class="usuario" for="usuario">Celular, e-mail ou nome de usuário</label><br>
+          <input type="text" id="usuario">
+        </div>
+        
+        <div class="inputs"> <!--Div para informa a senha-->
+          <label class="senha" for="senha">Senha</label><br>
+          <input type="password" id="senha">
+        </div>
+      </br>
+
+        <button class="button" type="submit">Entrar</button> <!--Botão-->
+      </form>
+      
+      <div class="links container">
+        <a target="_blank" href="https://twitter.com/login?lang=pt">Esqueceu a senha?</a>
+        <span class="ponto"></span>
+        <a target="_blank" href="https://twitter.com/login?lang=pt">Inscrever-se no Twitter</a>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>

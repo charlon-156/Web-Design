@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    color: white;
+    background-color: #1c283b;
+    font-family: "Montserrat", sans-serif; 
+}
+
+h2{
+    text-align: center;
+    font-size: 23pt;
+}
+
+/*Formatação das imagens*/
+img {
+    width: 100%;
+    display: block;
+}
+
+#logo img{
+    width: 60px;
+    margin: 8px;
+}
+
+/*Mudança do forms*/
+section form{
+    display: block;
+    margin-top: 32px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section form .input{
+    margin: 16px auto;
+    width: 100%;
+    max-width: 520px;
+    background-color: #152032;
+    font-size: 20px;
+}
+
+section form .input label{
+    padding-left: 8px;
+    color: rgb(101, 119, 134);
+    font-size: 14px;
+    display: inline-block;
+}
+
+section form .input:focus-within label {
+    color: #4d4dff;
+  }
+  
+section form .input input[type="text"], section form .input input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    height: 30px;
+    font-size: 18px;
+    border-bottom: 2px solid #0c121d;
+    border-radius: 3px;
+    transition: 200ms;
+  }
+  
+section form .input input[type="text"]:focus, section form .input input[type="password"]:focus {
+    border-bottom: 2px solid #4d4dff;
+  }
+  
+section form .input label:focus-within {
+    color: #4d4dff;
+  }
+  
+section form .botão {
+    display: block;
+    margin: 0 auto;
+    color: whi;
+    font-size: 14px;
+    font-weight: bold;
+    width: 520px;
+    height: 45px;
+    background-color: #4d4dc4;
+    border-radius: 30px;
+    transition: 400ms;
+    text-align: center;
+}
+ 
+botão,input,input:focus,label {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+  }
+
+section form .botão:hover {
+    background-color: #1da1f2;
+    cursor: pointer;
+}
+
+/* alterando link*/
+.link {
+    margin-top: 32px;
+    text-align: center;
+}
+
+.link a{
+    color: #4d4dc4;
+    font-size: 14px;  
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.quebra:after {
+    position: relative;
+    top: -4px;
+    content: "-";
+}
+
+@media only screen and (min-width: 720px) {
+    .login {
+      max-width: 520px;
+    }
+    section form .botão {
+      max-width: 520px;
+    }
+  }
+  
+  @media only screen and (max-width: 719.9px) {
+    .login {
+      max-width: 300px;
+    }
+    section form .botão {
+      max-width: 300px;
+    }
+    .link a {
+      display: block;
+    }
+    .ponto:after {
+      display: none;
+    }
+  }

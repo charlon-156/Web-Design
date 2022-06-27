@@ -1,0 +1,61 @@
+.inicio{text-align: center;font-size: 22pt;}
+
+.t1{text-align: center;}
+.t2{text-align: right;}
+.t3{text-align: left;}
+
+/*.p1{font-weight: bold; font-style: italic;}
+.p2{font-weight: bold;}
+.p3{font-style: italic;}
+
+.p4{font-weight: bold; text-decoration: underline;}
+.p5{text-decoration: underline;}
+.p6{font-weight: bold;}*/
+
+.p7{font-weight: bold;}
+
+.bold{font-weight: bold;}
+.italia{font-style: italic;}
+.linha{text-decoration: underline;}
+
+.N1{
+    background-color: rgb(192, 192, 192);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid;
+    height: 45px;
+    width: 300px;
+}
+.N2{
+    background-color: rgb(192, 192, 192);
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+    text-align: center;
+    height: 300px;
+    width: 45px;
+    display: inline-block;
+}.N3{
+    background-color: rgb(192, 192, 192);
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+    text-align: center;
+    height: 255px;
+    width: 255px;
+    display: inline-block;
+}
+.N4{
+    background-color: rgb(192, 192, 192);
+    color: black;
+    font-weight: bold;
+    border: 1px solid;
+    text-align: center;
+    height: 255px;
+    width: 255px;
+    display: block;
+}
+
+
+/*div{display: inline;}*/
